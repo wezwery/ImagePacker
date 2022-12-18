@@ -53,34 +53,16 @@ namespace ImagePacker
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            Tuple<Bitmap, string>[] images = new Tuple<Bitmap, string>[selectedImages.Count];
-            for (int i = 0; i < selectedImages.Count; i++)
-            {
-                images[i] = new Tuple<Bitmap, string>(new Bitmap(selectedImages[i].Item1), selectedImages[i].Item2);
-            }
-
-            int width = 0;
-            int height = 0;
-
-            foreach (var img in images)
-            {
-                width += img.Item1.Width;
-                height += img.Item1.Height;
-            }
-
-            if (width >= WARNING_BIG_SIZE || height >= WARNING_BIG_SIZE)
-            {
-                if (MessageBox.Show($"Image width or height is greater than {WARNING_BIG_SIZE}!\n" +
-                    $"Are you sure you want to continue?", "Warning", MessageBoxButtons.YesNo) == DialogResult.No)
-                {
-                    return;
-                }
-            }
-
             if (SaveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string pathToSave = SaveFileDialog.FileName.Replace(".png", "").Trim();
-                
+
+                Tuple<Bitmap, string>[] images = new Tuple<Bitmap, string>[selectedImages.Count];
+                for (int i = 0; i < selectedImages.Count; i++)
+                {
+                    images[i] = new Tuple<Bitmap, string>(new Bitmap(selectedImages[i].Item1), selectedImages[i].Item2);
+                }
+
                 var output = CreateImageSheet(SIZE_OFFSET, SIZE_OFFSET, images);
 
                 output.Item2.Save($"{pathToSave}.png", System.Drawing.Imaging.ImageFormat.Png);
@@ -112,6 +94,33 @@ namespace ImagePacker
             public int Width;
             public int Height;
 
+            public bool Intersects(IntRect rect)
+            {
+                int r1MinX = Math.Min(Left, Left + Width);
+                int r1MaxX = Math.Max(Left, Left + Width);
+                int r1MinY = Math.Min(Top, Top + Height);
+                int r1MaxY = Math.Max(Top, Top + Height);
+
+                int r2MinX = Math.Min(rect.Left, rect.Left + rect.Width);
+                int r2MaxX = Math.Max(rect.Left, rect.Left + rect.Width);
+                int r2MinY = Math.Min(rect.Top, rect.Top + rect.Height);
+                int r2MaxY = Math.Max(rect.Top, rect.Top + rect.Height);
+
+                int interLeft = Math.Max(r1MinX, r2MinX);
+                int interTop = Math.Max(r1MinY, r2MinY);
+                int interRight = Math.Min(r1MaxX, r2MaxX);
+                int interBottom = Math.Min(r1MaxY, r2MaxY);
+
+                if ((interLeft < interRight) && (interTop < interBottom))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
             public IntRect(int left, int top, int width, int height)
             {
                 Left = left;
@@ -122,7 +131,6 @@ namespace ImagePacker
         }
 
         private const int SIZE_OFFSET = 128;
-        private const int WARNING_BIG_SIZE = 5120;
         public int SPACE_BETWEEN_IMAGES_PX = 1;
 
         public Tuple<ImageData[], Bitmap> CreateImageSheet(int outputWidth, int outputHeight, Tuple<Bitmap, string>[] images)
@@ -130,19 +138,11 @@ namespace ImagePacker
             Bitmap outputImage = new Bitmap(outputWidth, outputHeight);
             var sortedImages = images.OrderByDescending(a => Math.Pow(a.Item1.Width + a.Item1.Height, 2)).ToArray();
             List<ImageData> datas = new List<ImageData>();
-
-            bool isInRect(IntRect rect, int x, int y)
-            {
-                return (rect.Left <= x && rect.Left + rect.Width >= x) && (rect.Top <= y && rect.Top + rect.Height >= y);
-            }
-            bool isEmptyForRect(int x, int y, int width, int height)
+            bool isEmptyForRect(IntRect another)
             {
                 foreach (var data in datas)
                 {
-                    if (isInRect(data.rect, x, y) ||
-                        isInRect(data.rect, x + width, y) ||
-                        isInRect(data.rect, x + width, y + height) ||
-                        isInRect(data.rect, x, y + height)) return false;
+                    if (data.rect.Intersects(another)) return false;
                 }
 
                 return true;
@@ -161,20 +161,17 @@ namespace ImagePacker
                     {
                         var rect = data.rect;
 
-                        x = rect.Left;
-                        y = rect.Top;
-
                         if (rect.Left + rect.Width + width < outputWidth && rect.Top + height < outputHeight)
                         {
                             x = rect.Left + rect.Width + SPACE_BETWEEN_IMAGES_PX;
-                            y = rect.Top + (y == 0 ? 0 : SPACE_BETWEEN_IMAGES_PX);
-                            if (isEmptyForRect(x, y, width, height)) break;
+                            y = rect.Top/* + (y == 0 ? 0 : SPACE_BETWEEN_IMAGES_PX)*/;
+                            if (isEmptyForRect(new IntRect(x,y,width,height))) break;
                         }
                         if (rect.Left + width < outputWidth && rect.Top + rect.Height + height < outputHeight)
                         {
-                            x = rect.Left + (x == 0 ? 0 : SPACE_BETWEEN_IMAGES_PX);
+                            x = rect.Left/* + (x == 0 ? 0 : SPACE_BETWEEN_IMAGES_PX)*/;
                             y = rect.Top + rect.Height + SPACE_BETWEEN_IMAGES_PX;
-                            if (isEmptyForRect(x, y, width, height)) break;
+                            if (isEmptyForRect(new IntRect(x, y, width, height))) break;
                         }
 
                         x = rect.Left + rect.Width + SPACE_BETWEEN_IMAGES_PX;
