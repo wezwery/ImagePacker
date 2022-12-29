@@ -37,22 +37,23 @@
             this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.SpaceBetweenPicturesNumericDropDown = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
+            this.SaveWithoutExtensionChecker = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.SpaceBetweenPicturesNumericDropDown)).BeginInit();
             this.SuspendLayout();
             // 
             // ImageList
             // 
             this.ImageList.FormattingEnabled = true;
-            this.ImageList.Location = new System.Drawing.Point(12, 171);
+            this.ImageList.Location = new System.Drawing.Point(12, 184);
             this.ImageList.Name = "ImageList";
-            this.ImageList.Size = new System.Drawing.Size(232, 264);
+            this.ImageList.Size = new System.Drawing.Size(232, 251);
             this.ImageList.TabIndex = 0;
             this.ImageList.SelectedIndexChanged += new System.EventHandler(this.ImageList_SelectedIndexChanged);
             // 
             // SaveBtn
             // 
             this.SaveBtn.Enabled = false;
-            this.SaveBtn.Location = new System.Drawing.Point(12, 38);
+            this.SaveBtn.Location = new System.Drawing.Point(12, 61);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(232, 23);
             this.SaveBtn.TabIndex = 1;
@@ -63,7 +64,7 @@
             // DeleteBtn
             // 
             this.DeleteBtn.Enabled = false;
-            this.DeleteBtn.Location = new System.Drawing.Point(12, 142);
+            this.DeleteBtn.Location = new System.Drawing.Point(12, 158);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(232, 23);
             this.DeleteBtn.TabIndex = 1;
@@ -73,7 +74,7 @@
             // 
             // ClearBtn
             // 
-            this.ClearBtn.Location = new System.Drawing.Point(12, 113);
+            this.ClearBtn.Location = new System.Drawing.Point(12, 129);
             this.ClearBtn.Name = "ClearBtn";
             this.ClearBtn.Size = new System.Drawing.Size(232, 23);
             this.ClearBtn.TabIndex = 1;
@@ -83,7 +84,7 @@
             // 
             // LoadBtn
             // 
-            this.LoadBtn.Location = new System.Drawing.Point(12, 67);
+            this.LoadBtn.Location = new System.Drawing.Point(12, 90);
             this.LoadBtn.Name = "LoadBtn";
             this.LoadBtn.Size = new System.Drawing.Size(232, 23);
             this.LoadBtn.TabIndex = 1;
@@ -126,11 +127,23 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Spacing between pictures";
             // 
+            // SaveWithoutExtensionChecker
+            // 
+            this.SaveWithoutExtensionChecker.AutoSize = true;
+            this.SaveWithoutExtensionChecker.Location = new System.Drawing.Point(57, 38);
+            this.SaveWithoutExtensionChecker.Name = "SaveWithoutExtensionChecker";
+            this.SaveWithoutExtensionChecker.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.SaveWithoutExtensionChecker.Size = new System.Drawing.Size(141, 17);
+            this.SaveWithoutExtensionChecker.TabIndex = 4;
+            this.SaveWithoutExtensionChecker.Text = "Save without extensions";
+            this.SaveWithoutExtensionChecker.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(256, 450);
+            this.Controls.Add(this.SaveWithoutExtensionChecker);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.SpaceBetweenPicturesNumericDropDown);
             this.Controls.Add(this.ClearBtn);
@@ -161,6 +174,7 @@
         private System.Windows.Forms.SaveFileDialog SaveFileDialog;
         private System.Windows.Forms.NumericUpDown SpaceBetweenPicturesNumericDropDown;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox SaveWithoutExtensionChecker;
     }
 }
 

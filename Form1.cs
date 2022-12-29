@@ -60,7 +60,7 @@ namespace ImagePacker
                 Tuple<Bitmap, string>[] images = new Tuple<Bitmap, string>[selectedImages.Count];
                 for (int i = 0; i < selectedImages.Count; i++)
                 {
-                    images[i] = new Tuple<Bitmap, string>(new Bitmap(selectedImages[i].Item1), selectedImages[i].Item2);
+                    images[i] = new Tuple<Bitmap, string>(new Bitmap(selectedImages[i].Item1), SaveWithoutExtensionChecker.Checked ? selectedImages[i].Item2.Replace(".png","") : selectedImages[i].Item2);
                 }
 
                 var output = CreateImageSheet(SIZE_OFFSET, SIZE_OFFSET, images);
