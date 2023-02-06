@@ -73,6 +73,11 @@ namespace ImagePacker
                 {
                     xml.Serialize(f, output.Item1);
                 }
+
+                foreach (var item in images)
+                {
+                    item.Item1.Dispose();
+                }
             }
         }
 
@@ -136,7 +141,7 @@ namespace ImagePacker
         public Tuple<ImageData[], Bitmap> CreateImageSheet(int outputWidth, int outputHeight, Tuple<Bitmap, string>[] images)
         {
             Bitmap outputImage = new Bitmap(outputWidth, outputHeight);
-            var sortedImages = images.OrderByDescending(a => Math.Pow(a.Item1.Width + a.Item1.Height, 2)).ToArray();
+            var sortedImages = images.OrderByDescending(a => a.Item1.Width*a.Item1.Height).ToArray();
             List<ImageData> datas = new List<ImageData>();
             bool isEmptyForRect(IntRect another)
             {
@@ -150,7 +155,7 @@ namespace ImagePacker
 
             using (Graphics gr = Graphics.FromImage(outputImage))
             {
-                foreach (var img in images)
+                foreach (var img in sortedImages)
                 {
                     int width = img.Item1.Width;
                     int height = img.Item1.Height;
@@ -180,14 +185,17 @@ namespace ImagePacker
 
                     if (x + width > outputWidth && outputWidth <= outputHeight)
                     {
+                        outputImage.Dispose();
                         return CreateImageSheet(outputWidth + SIZE_OFFSET, outputHeight, images);
                     }
                     else if (y + height > outputHeight && outputHeight <= outputWidth)
                     {
+                        outputImage.Dispose();
                         return CreateImageSheet(outputWidth, outputHeight + SIZE_OFFSET, images);
                     }
                     else if (x + width > outputWidth || y + height > outputHeight)
                     {
+                        outputImage.Dispose();
                         return CreateImageSheet(outputWidth + SIZE_OFFSET, outputHeight, images);
                     }
 
