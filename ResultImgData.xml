@@ -237,8 +237,8 @@
   <ImageData>
     <name>fire01.png</name>
     <rect>
-      <Left>564</Left>
-      <Top>137</Top>
+      <Left>467</Left>
+      <Top>957</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -246,8 +246,8 @@
   <ImageData>
     <name>fire02.png</name>
     <rect>
-      <Left>685</Left>
-      <Top>810</Top>
+      <Left>611</Left>
+      <Top>548</Top>
       <Width>14</Width>
       <Height>32</Height>
     </rect>
@@ -255,8 +255,8 @@
   <ImageData>
     <name>fire03.png</name>
     <rect>
-      <Left>829</Left>
-      <Top>686</Top>
+      <Left>566</Left>
+      <Top>137</Top>
       <Width>14</Width>
       <Height>34</Height>
     </rect>
@@ -264,8 +264,8 @@
   <ImageData>
     <name>fire04.png</name>
     <rect>
-      <Left>612</Left>
-      <Top>472</Top>
+      <Left>332</Left>
+      <Top>957</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -273,8 +273,8 @@
   <ImageData>
     <name>fire05.png</name>
     <rect>
-      <Left>619</Left>
-      <Top>850</Top>
+      <Left>297</Left>
+      <Top>991</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -282,8 +282,8 @@
   <ImageData>
     <name>fire06.png</name>
     <rect>
-      <Left>585</Left>
-      <Top>877</Top>
+      <Left>976</Left>
+      <Top>666</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -291,8 +291,8 @@
   <ImageData>
     <name>fire07.png</name>
     <rect>
-      <Left>550</Left>
-      <Top>911</Top>
+      <Left>612</Left>
+      <Top>472</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -309,15 +309,6 @@
   <ImageData>
     <name>fire09.png</name>
     <rect>
-      <Left>148</Left>
-      <Top>949</Top>
-      <Width>16</Width>
-      <Height>40</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>fire10.png</name>
-    <rect>
       <Left>728</Left>
       <Top>647</Top>
       <Width>16</Width>
@@ -325,10 +316,19 @@
     </rect>
   </ImageData>
   <ImageData>
+    <name>fire10.png</name>
+    <rect>
+      <Left>613</Left>
+      <Top>727</Top>
+      <Width>16</Width>
+      <Height>40</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
     <name>fire11.png</name>
     <rect>
-      <Left>512</Left>
-      <Top>949</Top>
+      <Left>268</Left>
+      <Top>750</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -336,8 +336,8 @@
   <ImageData>
     <name>fire12.png</name>
     <rect>
-      <Left>633</Left>
-      <Top>872</Top>
+      <Left>497</Left>
+      <Top>927</Top>
       <Width>14</Width>
       <Height>32</Height>
     </rect>
@@ -345,8 +345,8 @@
   <ImageData>
     <name>fire13.png</name>
     <rect>
-      <Left>781</Left>
-      <Top>782</Top>
+      <Left>585</Left>
+      <Top>877</Top>
       <Width>14</Width>
       <Height>34</Height>
     </rect>
@@ -354,8 +354,8 @@
   <ImageData>
     <name>fire14.png</name>
     <rect>
-      <Left>268</Left>
-      <Top>751</Top>
+      <Left>339</Left>
+      <Top>808</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -363,8 +363,8 @@
   <ImageData>
     <name>fire15.png</name>
     <rect>
-      <Left>467</Left>
-      <Top>954</Top>
+      <Left>934</Left>
+      <Top>714</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -372,8 +372,8 @@
   <ImageData>
     <name>fire16.png</name>
     <rect>
-      <Left>332</Left>
-      <Top>957</Top>
+      <Left>351</Left>
+      <Top>439</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -381,8 +381,8 @@
   <ImageData>
     <name>fire17.png</name>
     <rect>
-      <Left>297</Left>
-      <Top>991</Top>
+      <Left>178</Left>
+      <Top>965</Top>
       <Width>14</Width>
       <Height>31</Height>
     </rect>
@@ -390,8 +390,8 @@
   <ImageData>
     <name>fire18.png</name>
     <rect>
-      <Left>1000</Left>
-      <Top>97</Top>
+      <Left>1002</Left>
+      <Top>182</Top>
       <Width>16</Width>
       <Height>41</Height>
     </rect>
@@ -399,8 +399,8 @@
   <ImageData>
     <name>fire19.png</name>
     <rect>
-      <Left>1002</Left>
-      <Top>182</Top>
+      <Left>1001</Left>
+      <Top>259</Top>
       <Width>16</Width>
       <Height>41</Height>
     </rect>
@@ -462,8 +462,8 @@
   <ImageData>
     <name>star3.png</name>
     <rect>
-      <Left>412</Left>
-      <Top>999</Top>
+      <Left>896</Left>
+      <Top>714</Top>
       <Width>24</Width>
       <Height>24</Height>
     </rect>
@@ -660,8 +660,8 @@
   <ImageData>
     <name>laserBlue02.png</name>
     <rect>
-      <Left>837</Left>
-      <Top>588</Top>
+      <Left>266</Left>
+      <Top>173</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -669,8 +669,8 @@
   <ImageData>
     <name>laserBlue03.png</name>
     <rect>
-      <Left>555</Left>
-      <Top>728</Top>
+      <Left>837</Left>
+      <Top>588</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -678,8 +678,8 @@
   <ImageData>
     <name>laserBlue04.png</name>
     <rect>
-      <Left>193</Left>
-      <Top>880</Top>
+      <Left>1009</Left>
+      <Top>606</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -687,8 +687,8 @@
   <ImageData>
     <name>laserBlue05.png</name>
     <rect>
-      <Left>472</Left>
-      <Top>771</Top>
+      <Left>417</Left>
+      <Top>914</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -696,8 +696,8 @@
   <ImageData>
     <name>laserBlue06.png</name>
     <rect>
-      <Left>668</Left>
-      <Top>807</Top>
+      <Left>850</Left>
+      <Top>755</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -705,8 +705,8 @@
   <ImageData>
     <name>laserBlue07.png</name>
     <rect>
-      <Left>676</Left>
-      <Top>709</Top>
+      <Left>840</Left>
+      <Top>645</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -741,8 +741,8 @@
   <ImageData>
     <name>laserBlue11.png</name>
     <rect>
-      <Left>459</Left>
-      <Top>137</Top>
+      <Left>328</Left>
+      <Top>344</Top>
       <Width>38</Width>
       <Height>37</Height>
     </rect>
@@ -768,8 +768,8 @@
   <ImageData>
     <name>laserBlue14.png</name>
     <rect>
-      <Left>92</Left>
-      <Top>599</Top>
+      <Left>731</Left>
+      <Top>258</Top>
       <Width>13</Width>
       <Height>57</Height>
     </rect>
@@ -777,8 +777,8 @@
   <ImageData>
     <name>laserBlue15.png</name>
     <rect>
-      <Left>94</Left>
-      <Top>691</Top>
+      <Left>92</Left>
+      <Top>599</Top>
       <Width>9</Width>
       <Height>57</Height>
     </rect>
@@ -786,8 +786,8 @@
   <ImageData>
     <name>laserBlue16.png</name>
     <rect>
-      <Left>83</Left>
-      <Top>853</Top>
+      <Left>351</Left>
+      <Top>384</Top>
       <Width>13</Width>
       <Height>54</Height>
     </rect>
@@ -804,8 +804,8 @@
   <ImageData>
     <name>laserGreen02.png</name>
     <rect>
-      <Left>731</Left>
-      <Top>258</Top>
+      <Left>732</Left>
+      <Top>419</Top>
       <Width>13</Width>
       <Height>57</Height>
     </rect>
@@ -813,8 +813,8 @@
   <ImageData>
     <name>laserGreen03.png</name>
     <rect>
-      <Left>503</Left>
-      <Top>224</Top>
+      <Left>94</Left>
+      <Top>691</Top>
       <Width>9</Width>
       <Height>57</Height>
     </rect>
@@ -822,50 +822,14 @@
   <ImageData>
     <name>laserGreen04.png</name>
     <rect>
-      <Left>266</Left>
-      <Top>173</Top>
+      <Left>832</Left>
+      <Top>720</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
   </ImageData>
   <ImageData>
     <name>laserGreen05.png</name>
-    <rect>
-      <Left>840</Left>
-      <Top>645</Top>
-      <Width>9</Width>
-      <Height>37</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>laserGreen06.png</name>
-    <rect>
-      <Left>733</Left>
-      <Top>343</Top>
-      <Width>13</Width>
-      <Height>57</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>laserGreen07.png</name>
-    <rect>
-      <Left>357</Left>
-      <Top>561</Top>
-      <Width>9</Width>
-      <Height>57</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>laserGreen08.png</name>
-    <rect>
-      <Left>1009</Left>
-      <Top>606</Top>
-      <Width>13</Width>
-      <Height>37</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>laserGreen09.png</name>
     <rect>
       <Left>674</Left>
       <Top>766</Top>
@@ -874,10 +838,46 @@
     </rect>
   </ImageData>
   <ImageData>
+    <name>laserGreen06.png</name>
+    <rect>
+      <Left>188</Left>
+      <Top>723</Top>
+      <Width>13</Width>
+      <Height>57</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>laserGreen07.png</name>
+    <rect>
+      <Left>733</Left>
+      <Top>343</Top>
+      <Width>9</Width>
+      <Height>57</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>laserGreen08.png</name>
+    <rect>
+      <Left>781</Left>
+      <Top>782</Top>
+      <Width>13</Width>
+      <Height>37</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>laserGreen09.png</name>
+    <rect>
+      <Left>246</Left>
+      <Top>980</Top>
+      <Width>9</Width>
+      <Height>37</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
     <name>laserGreen10.png</name>
     <rect>
-      <Left>829</Left>
-      <Top>419</Top>
+      <Left>1000</Left>
+      <Top>97</Top>
       <Width>13</Width>
       <Height>54</Height>
     </rect>
@@ -894,8 +894,8 @@
   <ImageData>
     <name>laserGreen12.png</name>
     <rect>
-      <Left>896</Left>
-      <Top>714</Top>
+      <Left>746</Left>
+      <Top>820</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -903,8 +903,8 @@
   <ImageData>
     <name>laserGreen13.png</name>
     <rect>
-      <Left>246</Left>
-      <Top>976</Top>
+      <Left>819</Left>
+      <Top>755</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -948,8 +948,8 @@
   <ImageData>
     <name>laserRed02.png</name>
     <rect>
-      <Left>850</Left>
-      <Top>755</Top>
+      <Left>717</Left>
+      <Top>779</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -957,8 +957,8 @@
   <ImageData>
     <name>laserRed03.png</name>
     <rect>
-      <Left>502</Left>
-      <Top>893</Top>
+      <Left>619</Left>
+      <Top>850</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -966,8 +966,8 @@
   <ImageData>
     <name>laserRed04.png</name>
     <rect>
-      <Left>832</Left>
-      <Top>720</Top>
+      <Left>685</Left>
+      <Top>810</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -975,8 +975,8 @@
   <ImageData>
     <name>laserRed05.png</name>
     <rect>
-      <Left>966</Left>
-      <Top>638</Top>
+      <Left>964</Left>
+      <Top>687</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -984,8 +984,8 @@
   <ImageData>
     <name>laserRed06.png</name>
     <rect>
-      <Left>819</Left>
-      <Top>755</Top>
+      <Left>633</Left>
+      <Top>872</Top>
       <Width>13</Width>
       <Height>37</Height>
     </rect>
@@ -993,8 +993,8 @@
   <ImageData>
     <name>laserRed07.png</name>
     <rect>
-      <Left>351</Left>
-      <Top>439</Top>
+      <Left>1014</Left>
+      <Top>97</Top>
       <Width>9</Width>
       <Height>37</Height>
     </rect>
@@ -1021,7 +1021,7 @@
     <name>laserRed10.png</name>
     <rect>
       <Left>257</Left>
-      <Top>930</Top>
+      <Top>934</Top>
       <Width>37</Width>
       <Height>36</Height>
     </rect>
@@ -1038,14 +1038,32 @@
   <ImageData>
     <name>laserRed12.png</name>
     <rect>
-      <Left>732</Left>
-      <Top>419</Top>
+      <Left>83</Left>
+      <Top>853</Top>
       <Width>13</Width>
       <Height>57</Height>
     </rect>
   </ImageData>
   <ImageData>
     <name>laserRed13.png</name>
+    <rect>
+      <Left>357</Left>
+      <Top>561</Top>
+      <Width>9</Width>
+      <Height>57</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>laserRed14.png</name>
+    <rect>
+      <Left>829</Left>
+      <Top>419</Top>
+      <Width>13</Width>
+      <Height>57</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>laserRed15.png</name>
     <rect>
       <Left>358</Left>
       <Top>638</Top>
@@ -1054,28 +1072,10 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>laserRed14.png</name>
-    <rect>
-      <Left>188</Left>
-      <Top>723</Top>
-      <Width>13</Width>
-      <Height>57</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>laserRed15.png</name>
-    <rect>
-      <Left>414</Left>
-      <Top>763</Top>
-      <Width>9</Width>
-      <Height>57</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
     <name>laserRed16.png</name>
     <rect>
-      <Left>351</Left>
-      <Top>384</Top>
+      <Left>353</Left>
+      <Top>476</Top>
       <Width>13</Width>
       <Height>54</Height>
     </rect>
@@ -1137,8 +1137,8 @@
   <ImageData>
     <name>meteorBrown_small1.png</name>
     <rect>
-      <Left>339</Left>
-      <Top>779</Top>
+      <Left>268</Left>
+      <Top>721</Top>
       <Width>28</Width>
       <Height>28</Height>
     </rect>
@@ -1146,8 +1146,8 @@
   <ImageData>
     <name>meteorBrown_small2.png</name>
     <rect>
-      <Left>933</Left>
-      <Top>671</Top>
+      <Left>481</Left>
+      <Top>423</Top>
       <Width>29</Width>
       <Height>26</Height>
     </rect>
@@ -1155,8 +1155,8 @@
   <ImageData>
     <name>meteorBrown_tiny1.png</name>
     <rect>
-      <Left>1000</Left>
-      <Top>139</Top>
+      <Left>188</Left>
+      <Top>781</Top>
       <Width>18</Width>
       <Height>18</Height>
     </rect>
@@ -1164,8 +1164,8 @@
   <ImageData>
     <name>meteorBrown_tiny2.png</name>
     <rect>
-      <Left>207</Left>
-      <Top>1008</Top>
+      <Left>299</Left>
+      <Top>460</Top>
       <Width>16</Width>
       <Height>15</Height>
     </rect>
@@ -1209,8 +1209,8 @@
   <ImageData>
     <name>meteorGrey_med1.png</name>
     <rect>
-      <Left>933</Left>
-      <Top>560</Top>
+      <Left>893</Left>
+      <Top>585</Top>
       <Width>43</Width>
       <Height>43</Height>
     </rect>
@@ -1227,8 +1227,8 @@
   <ImageData>
     <name>meteorGrey_small1.png</name>
     <rect>
-      <Left>976</Left>
-      <Top>639</Top>
+      <Left>339</Left>
+      <Top>779</Top>
       <Width>28</Width>
       <Height>28</Height>
     </rect>
@@ -1236,8 +1236,8 @@
   <ImageData>
     <name>meteorGrey_small2.png</name>
     <rect>
-      <Left>481</Left>
-      <Top>423</Top>
+      <Left>934</Left>
+      <Top>687</Top>
       <Width>29</Width>
       <Height>26</Height>
     </rect>
@@ -1245,8 +1245,8 @@
   <ImageData>
     <name>meteorGrey_tiny1.png</name>
     <rect>
-      <Left>1002</Left>
-      <Top>224</Top>
+      <Left>410</Left>
+      <Top>883</Top>
       <Width>18</Width>
       <Height>18</Height>
     </rect>
@@ -1254,8 +1254,8 @@
   <ImageData>
     <name>meteorGrey_tiny2.png</name>
     <rect>
-      <Left>394</Left>
-      <Top>167</Top>
+      <Left>790</Left>
+      <Top>572</Top>
       <Width>16</Width>
       <Height>15</Height>
     </rect>
@@ -1272,8 +1272,8 @@
   <ImageData>
     <name>beam1.png</name>
     <rect>
-      <Left>718</Left>
-      <Top>77</Top>
+      <Left>166</Left>
+      <Top>849</Top>
       <Width>40</Width>
       <Height>20</Height>
     </rect>
@@ -1282,7 +1282,7 @@
     <name>beam2.png</name>
     <rect>
       <Left>207</Left>
-      <Top>976</Top>
+      <Top>980</Top>
       <Width>38</Width>
       <Height>31</Height>
     </rect>
@@ -1290,8 +1290,8 @@
   <ImageData>
     <name>beam3.png</name>
     <rect>
-      <Left>268</Left>
-      <Top>721</Top>
+      <Left>467</Left>
+      <Top>927</Top>
       <Width>29</Width>
       <Height>29</Height>
     </rect>
@@ -1299,7 +1299,7 @@
   <ImageData>
     <name>beam4.png</name>
     <rect>
-      <Left>922</Left>
+      <Left>718</Left>
       <Top>77</Top>
       <Width>41</Width>
       <Height>17</Height>
@@ -1308,8 +1308,8 @@
   <ImageData>
     <name>beam5.png</name>
     <rect>
-      <Left>893</Left>
-      <Top>626</Top>
+      <Left>931</Left>
+      <Top>653</Top>
       <Width>40</Width>
       <Height>25</Height>
     </rect>
@@ -1317,8 +1317,8 @@
   <ImageData>
     <name>beam6.png</name>
     <rect>
-      <Left>368</Left>
-      <Top>999</Top>
+      <Left>893</Left>
+      <Top>629</Top>
       <Width>43</Width>
       <Height>23</Height>
     </rect>
@@ -1335,8 +1335,8 @@
   <ImageData>
     <name>beamLong2.png</name>
     <rect>
-      <Left>343</Left>
-      <Top>700</Top>
+      <Left>607</Left>
+      <Top>652</Top>
       <Width>25</Width>
       <Height>64</Height>
     </rect>
@@ -1353,8 +1353,8 @@
   <ImageData>
     <name>cockpitBlue_1.png</name>
     <rect>
-      <Left>328</Left>
-      <Top>344</Top>
+      <Left>166</Left>
+      <Top>808</Top>
       <Width>40</Width>
       <Height>40</Height>
     </rect>
@@ -1398,8 +1398,8 @@
   <ImageData>
     <name>cockpitBlue_6.png</name>
     <rect>
-      <Left>207</Left>
-      <Top>862</Top>
+      <Left>151</Left>
+      <Top>870</Top>
       <Width>42</Width>
       <Height>67</Height>
     </rect>
@@ -1407,8 +1407,8 @@
   <ImageData>
     <name>cockpitBlue_7.png</name>
     <rect>
-      <Left>166</Left>
-      <Top>808</Top>
+      <Left>368</Left>
+      <Top>842</Top>
       <Width>41</Width>
       <Height>71</Height>
     </rect>
@@ -1425,8 +1425,8 @@
   <ImageData>
     <name>cockpitGreen_1.png</name>
     <rect>
-      <Left>893</Left>
-      <Top>585</Top>
+      <Left>685</Left>
+      <Top>704</Top>
       <Width>40</Width>
       <Height>40</Height>
     </rect>
@@ -1470,8 +1470,8 @@
   <ImageData>
     <name>cockpitGreen_6.png</name>
     <rect>
-      <Left>368</Left>
-      <Top>842</Top>
+      <Left>297</Left>
+      <Top>779</Top>
       <Width>41</Width>
       <Height>71</Height>
     </rect>
@@ -1497,8 +1497,8 @@
   <ImageData>
     <name>cockpitRed_1.png</name>
     <rect>
-      <Left>685</Left>
-      <Top>704</Top>
+      <Left>633</Left>
+      <Top>766</Top>
       <Width>40</Width>
       <Height>40</Height>
     </rect>
@@ -1551,8 +1551,8 @@
   <ImageData>
     <name>cockpitRed_7.png</name>
     <rect>
-      <Left>297</Left>
-      <Top>779</Top>
+      <Left>253</Left>
+      <Top>783</Top>
       <Width>41</Width>
       <Height>71</Height>
     </rect>
@@ -1560,8 +1560,8 @@
   <ImageData>
     <name>cockpitYellow_0.png</name>
     <rect>
-      <Left>633</Left>
-      <Top>766</Top>
+      <Left>459</Left>
+      <Top>137</Top>
       <Width>40</Width>
       <Height>40</Height>
     </rect>
@@ -1605,8 +1605,8 @@
   <ImageData>
     <name>cockpitYellow_5.png</name>
     <rect>
-      <Left>253</Left>
-      <Top>783</Top>
+      <Left>207</Left>
+      <Top>862</Top>
       <Width>41</Width>
       <Height>71</Height>
     </rect>
@@ -1632,8 +1632,8 @@
   <ImageData>
     <name>engine1.png</name>
     <rect>
-      <Left>166</Left>
-      <Top>999</Top>
+      <Left>933</Left>
+      <Top>560</Top>
       <Width>38</Width>
       <Height>23</Height>
     </rect>
@@ -1650,8 +1650,8 @@
   <ImageData>
     <name>engine3.png</name>
     <rect>
-      <Left>257</Left>
-      <Top>1000</Top>
+      <Left>413</Left>
+      <Top>999</Top>
       <Width>27</Width>
       <Height>22</Height>
     </rect>
@@ -1660,7 +1660,7 @@
     <name>engine4.png</name>
     <rect>
       <Left>207</Left>
-      <Top>930</Top>
+      <Top>934</Top>
       <Width>49</Width>
       <Height>45</Height>
     </rect>
@@ -1668,8 +1668,8 @@
   <ImageData>
     <name>engine5.png</name>
     <rect>
-      <Left>253</Left>
-      <Top>899</Top>
+      <Left>368</Left>
+      <Top>999</Top>
       <Width>44</Width>
       <Height>24</Height>
     </rect>
@@ -1677,8 +1677,8 @@
   <ImageData>
     <name>gun00.png</name>
     <rect>
-      <Left>613</Left>
-      <Top>727</Top>
+      <Left>346</Left>
+      <Top>851</Top>
       <Width>16</Width>
       <Height>36</Height>
     </rect>
@@ -1686,8 +1686,8 @@
   <ImageData>
     <name>gun01.png</name>
     <rect>
-      <Left>406</Left>
-      <Top>961</Top>
+      <Left>829</Left>
+      <Top>686</Top>
       <Width>17</Width>
       <Height>33</Height>
     </rect>
@@ -1695,8 +1695,8 @@
   <ImageData>
     <name>gun02.png</name>
     <rect>
-      <Left>151</Left>
-      <Top>870</Top>
+      <Left>668</Left>
+      <Top>807</Top>
       <Width>14</Width>
       <Height>36</Height>
     </rect>
@@ -1704,8 +1704,8 @@
   <ImageData>
     <name>gun03.png</name>
     <rect>
-      <Left>611</Left>
-      <Top>506</Top>
+      <Left>612</Left>
+      <Top>430</Top>
       <Width>20</Width>
       <Height>41</Height>
     </rect>
@@ -1713,8 +1713,8 @@
   <ImageData>
     <name>gun04.png</name>
     <rect>
-      <Left>1001</Left>
-      <Top>259</Top>
+      <Left>729</Left>
+      <Top>495</Top>
       <Width>16</Width>
       <Height>41</Height>
     </rect>
@@ -1722,8 +1722,8 @@
   <ImageData>
     <name>gun05.png</name>
     <rect>
-      <Left>612</Left>
-      <Top>430</Top>
+      <Left>611</Left>
+      <Top>506</Top>
       <Width>21</Width>
       <Height>41</Height>
     </rect>
@@ -1731,8 +1731,8 @@
   <ImageData>
     <name>gun06.png</name>
     <rect>
-      <Left>729</Left>
-      <Top>495</Top>
+      <Left>343</Left>
+      <Top>700</Top>
       <Width>17</Width>
       <Height>38</Height>
     </rect>
@@ -1740,8 +1740,8 @@
   <ImageData>
     <name>gun07.png</name>
     <rect>
-      <Left>353</Left>
-      <Top>476</Top>
+      <Left>414</Left>
+      <Top>763</Top>
       <Width>14</Width>
       <Height>41</Height>
     </rect>
@@ -1749,8 +1749,8 @@
   <ImageData>
     <name>gun08.png</name>
     <rect>
-      <Left>417</Left>
-      <Top>914</Top>
+      <Left>194</Left>
+      <Top>870</Top>
       <Width>10</Width>
       <Height>47</Height>
     </rect>
@@ -1776,8 +1776,8 @@
   <ImageData>
     <name>scratch1.png</name>
     <rect>
-      <Left>299</Left>
-      <Top>460</Top>
+      <Left>896</Left>
+      <Top>739</Top>
       <Width>21</Width>
       <Height>16</Height>
     </rect>
@@ -1785,8 +1785,8 @@
   <ImageData>
     <name>scratch2.png</name>
     <rect>
-      <Left>790</Left>
-      <Top>572</Top>
+      <Left>864</Left>
+      <Top>755</Top>
       <Width>21</Width>
       <Height>16</Height>
     </rect>
@@ -1794,8 +1794,8 @@
   <ImageData>
     <name>scratch3.png</name>
     <rect>
-      <Left>509</Left>
-      <Top>85</Top>
+      <Left>99</Left>
+      <Top>331</Top>
       <Width>16</Width>
       <Height>12</Height>
     </rect>
@@ -1812,8 +1812,8 @@
   <ImageData>
     <name>turretBase_small.png</name>
     <rect>
-      <Left>607</Left>
-      <Top>652</Top>
+      <Left>178</Left>
+      <Top>938</Top>
       <Width>26</Width>
       <Height>26</Height>
     </rect>
@@ -1965,8 +1965,8 @@
   <ImageData>
     <name>wingRed_0.png</name>
     <rect>
-      <Left>166</Left>
-      <Top>880</Top>
+      <Left>151</Left>
+      <Top>938</Top>
       <Width>26</Width>
       <Height>84</Height>
     </rect>
@@ -2109,15 +2109,6 @@
   <ImageData>
     <name>bold_silver.png</name>
     <rect>
-      <Left>346</Left>
-      <Top>851</Top>
-      <Width>19</Width>
-      <Height>30</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>bolt_bronze.png</name>
-    <rect>
       <Left>1003</Left>
       <Top>492</Top>
       <Width>19</Width>
@@ -2125,10 +2116,19 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>bolt_gold.png</name>
+    <name>bolt_bronze.png</name>
     <rect>
       <Left>726</Left>
       <Top>704</Top>
+      <Width>19</Width>
+      <Height>30</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>bolt_gold.png</name>
+    <rect>
+      <Left>406</Left>
+      <Top>961</Top>
       <Width>19</Width>
       <Height>30</Height>
     </rect>
@@ -2154,8 +2154,8 @@
   <ImageData>
     <name>pill_red.png</name>
     <rect>
-      <Left>746</Left>
-      <Top>820</Top>
+      <Left>550</Left>
+      <Top>911</Top>
       <Width>22</Width>
       <Height>21</Height>
     </rect>
@@ -2163,8 +2163,8 @@
   <ImageData>
     <name>pill_yellow.png</name>
     <rect>
-      <Left>716</Left>
-      <Top>779</Top>
+      <Left>512</Left>
+      <Top>949</Top>
       <Width>22</Width>
       <Height>21</Height>
     </rect>
@@ -2172,8 +2172,8 @@
   <ImageData>
     <name>powerupBlue.png</name>
     <rect>
-      <Left>478</Left>
-      <Top>846</Top>
+      <Left>253</Left>
+      <Top>899</Top>
       <Width>34</Width>
       <Height>33</Height>
     </rect>
@@ -2181,23 +2181,14 @@
   <ImageData>
     <name>powerupBlue_bolt.png</name>
     <rect>
-      <Left>166</Left>
-      <Top>965</Top>
+      <Left>937</Left>
+      <Top>585</Top>
       <Width>34</Width>
       <Height>33</Height>
     </rect>
   </ImageData>
   <ImageData>
     <name>powerupBlue_shield.png</name>
-    <rect>
-      <Left>933</Left>
-      <Top>604</Top>
-      <Width>34</Width>
-      <Height>33</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>powerupBlue_star.png</name>
     <rect>
       <Left>896</Left>
       <Top>653</Top>
@@ -2206,7 +2197,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupGreen.png</name>
+    <name>powerupBlue_star.png</name>
     <rect>
       <Left>850</Left>
       <Top>694</Top>
@@ -2215,7 +2206,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupGreen_bolt.png</name>
+    <name>powerupGreen.png</name>
     <rect>
       <Left>794</Left>
       <Top>686</Top>
@@ -2224,7 +2215,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupGreen_shield.png</name>
+    <name>powerupGreen_bolt.png</name>
     <rect>
       <Left>746</Left>
       <Top>755</Top>
@@ -2233,7 +2224,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupGreen_star.png</name>
+    <name>powerupGreen_shield.png</name>
     <rect>
       <Left>685</Left>
       <Top>745</Top>
@@ -2242,7 +2233,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupRed.png</name>
+    <name>powerupGreen_star.png</name>
     <rect>
       <Left>633</Left>
       <Top>807</Top>
@@ -2251,16 +2242,16 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupRed_bolt.png</name>
+    <name>powerupRed.png</name>
     <rect>
-      <Left>498</Left>
+      <Left>500</Left>
       <Top>137</Top>
       <Width>34</Width>
       <Height>33</Height>
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupRed_shield.png</name>
+    <name>powerupRed_bolt.png</name>
     <rect>
       <Left>564</Left>
       <Top>813</Top>
@@ -2269,7 +2260,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupRed_star.png</name>
+    <name>powerupRed_shield.png</name>
     <rect>
       <Left>550</Left>
       <Top>850</Top>
@@ -2278,7 +2269,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupYellow.png</name>
+    <name>powerupRed_star.png</name>
     <rect>
       <Left>512</Left>
       <Top>888</Top>
@@ -2287,7 +2278,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupYellow_bolt.png</name>
+    <name>powerupYellow.png</name>
     <rect>
       <Left>467</Left>
       <Top>893</Top>
@@ -2296,7 +2287,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupYellow_shield.png</name>
+    <name>powerupYellow_bolt.png</name>
     <rect>
       <Left>429</Left>
       <Top>931</Top>
@@ -2305,7 +2296,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>powerupYellow_star.png</name>
+    <name>powerupYellow_shield.png</name>
     <rect>
       <Left>297</Left>
       <Top>930</Top>
@@ -2314,10 +2305,19 @@
     </rect>
   </ImageData>
   <ImageData>
+    <name>powerupYellow_star.png</name>
+    <rect>
+      <Left>257</Left>
+      <Top>971</Top>
+      <Width>34</Width>
+      <Height>33</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
     <name>shield_bronze.png</name>
     <rect>
-      <Left>685</Left>
-      <Top>779</Top>
+      <Left>481</Left>
+      <Top>786</Top>
       <Width>30</Width>
       <Height>30</Height>
     </rect>
@@ -2325,8 +2325,8 @@
   <ImageData>
     <name>shield_gold.png</name>
     <rect>
-      <Left>633</Left>
-      <Top>841</Top>
+      <Left>602</Left>
+      <Top>774</Top>
       <Width>30</Width>
       <Height>30</Height>
     </rect>
@@ -2334,7 +2334,7 @@
   <ImageData>
     <name>shield_silver.png</name>
     <rect>
-      <Left>533</Left>
+      <Left>535</Left>
       <Top>137</Top>
       <Width>30</Width>
       <Height>30</Height>
@@ -2343,24 +2343,6 @@
   <ImageData>
     <name>star_bronze.png</name>
     <rect>
-      <Left>481</Left>
-      <Top>786</Top>
-      <Width>31</Width>
-      <Height>30</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>star_gold.png</name>
-    <rect>
-      <Left>602</Left>
-      <Top>774</Top>
-      <Width>31</Width>
-      <Height>30</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>star_silver.png</name>
-    <rect>
       <Left>746</Left>
       <Top>789</Top>
       <Width>31</Width>
@@ -2368,10 +2350,28 @@
     </rect>
   </ImageData>
   <ImageData>
+    <name>star_gold.png</name>
+    <rect>
+      <Left>685</Left>
+      <Top>779</Top>
+      <Width>31</Width>
+      <Height>30</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>star_silver.png</name>
+    <rect>
+      <Left>633</Left>
+      <Top>841</Top>
+      <Width>31</Width>
+      <Height>30</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
     <name>things_bronze.png</name>
     <rect>
-      <Left>257</Left>
-      <Top>967</Top>
+      <Left>478</Left>
+      <Top>846</Top>
       <Width>32</Width>
       <Height>32</Height>
     </rect>
@@ -2388,8 +2388,8 @@
   <ImageData>
     <name>things_silver.png</name>
     <rect>
-      <Left>933</Left>
-      <Top>638</Top>
+      <Left>937</Left>
+      <Top>619</Top>
       <Width>32</Width>
       <Height>32</Height>
     </rect>
@@ -2442,8 +2442,8 @@
   <ImageData>
     <name>numeral0.png</name>
     <rect>
-      <Left>611</Left>
-      <Top>548</Top>
+      <Left>922</Left>
+      <Top>77</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2451,8 +2451,8 @@
   <ImageData>
     <name>numeral1.png</name>
     <rect>
-      <Left>759</Left>
-      <Top>77</Top>
+      <Left>257</Left>
+      <Top>1005</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2460,8 +2460,8 @@
   <ImageData>
     <name>numeral2.png</name>
     <rect>
-      <Left>339</Left>
-      <Top>808</Top>
+      <Left>83</Left>
+      <Top>911</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2469,8 +2469,8 @@
   <ImageData>
     <name>numeral3.png</name>
     <rect>
-      <Left>976</Left>
-      <Top>668</Top>
+      <Left>829</Left>
+      <Top>477</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2478,8 +2478,8 @@
   <ImageData>
     <name>numeral4.png</name>
     <rect>
-      <Left>933</Left>
-      <Top>698</Top>
+      <Left>1000</Left>
+      <Top>152</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2487,8 +2487,8 @@
   <ImageData>
     <name>numeral5.png</name>
     <rect>
-      <Left>188</Left>
-      <Top>781</Top>
+      <Left>760</Left>
+      <Top>77</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2496,8 +2496,8 @@
   <ImageData>
     <name>numeral6.png</name>
     <rect>
-      <Left>83</Left>
-      <Top>908</Top>
+      <Left>1002</Left>
+      <Top>224</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2505,8 +2505,8 @@
   <ImageData>
     <name>numeral7.png</name>
     <rect>
-      <Left>829</Left>
-      <Top>474</Top>
+      <Left>1001</Left>
+      <Top>301</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2514,8 +2514,8 @@
   <ImageData>
     <name>numeral8.png</name>
     <rect>
-      <Left>964</Left>
-      <Top>77</Top>
+      <Left>343</Left>
+      <Top>739</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2523,8 +2523,8 @@
   <ImageData>
     <name>numeral9.png</name>
     <rect>
-      <Left>607</Left>
-      <Top>679</Top>
+      <Left>441</Left>
+      <Top>999</Top>
       <Width>19</Width>
       <Height>19</Height>
     </rect>
@@ -2532,8 +2532,8 @@
   <ImageData>
     <name>numeralX.png</name>
     <rect>
-      <Left>616</Left>
-      <Top>242</Top>
+      <Left>1003</Left>
+      <Top>523</Top>
       <Width>17</Width>
       <Height>17</Height>
     </rect>
@@ -2613,15 +2613,6 @@
   <ImageData>
     <name>playerLife3_blue.png</name>
     <rect>
-      <Left>467</Left>
-      <Top>927</Top>
-      <Width>32</Width>
-      <Height>26</Height>
-    </rect>
-  </ImageData>
-  <ImageData>
-    <name>playerLife3_green.png</name>
-    <rect>
       <Left>429</Left>
       <Top>965</Top>
       <Width>32</Width>
@@ -2629,7 +2620,7 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>playerLife3_orange.png</name>
+    <name>playerLife3_green.png</name>
     <rect>
       <Left>332</Left>
       <Top>930</Top>
@@ -2638,10 +2629,19 @@
     </rect>
   </ImageData>
   <ImageData>
-    <name>playerLife3_red.png</name>
+    <name>playerLife3_orange.png</name>
     <rect>
       <Left>297</Left>
       <Top>964</Top>
+      <Width>32</Width>
+      <Height>26</Height>
+    </rect>
+  </ImageData>
+  <ImageData>
+    <name>playerLife3_red.png</name>
+    <rect>
+      <Left>976</Left>
+      <Top>639</Top>
       <Width>32</Width>
       <Height>26</Height>
     </rect>

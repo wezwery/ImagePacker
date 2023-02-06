@@ -147,7 +147,7 @@ namespace ImagePacker
             {
                 foreach (var data in datas)
                 {
-                    if (data.rect.Intersects(another)) return false;
+                    if (data.rect.Intersects(new IntRect(another.Left,another.Top,another.Width+1,another.Height+1))) return false;
                 }
 
                 return true;
